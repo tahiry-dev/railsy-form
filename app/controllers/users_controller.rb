@@ -1,6 +1,3 @@
-# frozen_string_literal: true
-
-# rubocop:todo Style/Documentation
 class UsersController < ActionController::Base
   before_action :find_user, only: %i[edit update]
 
@@ -41,4 +38,3 @@ class UsersController < ActionController::Base
     @user = User.find(params[:id])
   end
 end
-# rubocop:enable Style/Documentation

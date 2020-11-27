@@ -1,8 +1,6 @@
-# frozen_string_literal: true
-
 # doc mailer
 
-class ApplicationMailer < ActionMailer::Base # rubocop:todo Style/Documentation
+class ApplicationMailer < ActionMailer::Base
   default from: 'from@example.com'
   layout 'mailer'
 end
