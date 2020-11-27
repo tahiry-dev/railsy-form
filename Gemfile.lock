@@ -191,6 +191,9 @@ GEM
     tzinfo (1.2.8)
       thread_safe (~> 0.1)
     unicode-display_width (1.7.0)
+    valid_email2 (3.5.0)
+      activemodel (>= 3.2)
+      mail (~> 2.5)
     web-console (4.1.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -229,6 +232,7 @@ DEPENDENCIES
   spring-watcher-listen (~> 2.0.0)
   sqlite3 (~> 1.4)
   turbolinks (~> 5)
+  valid_email2
   web-console (>= 3.3.0)
   webdrivers
   webpacker (~> 4.0)
