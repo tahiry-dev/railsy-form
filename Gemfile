@@ -33,8 +33,8 @@ gem 'bootsnap', '>= 1.4.2', require: false
 # Rubocop
 gem 'rubocop', '~>0.81.0'
 
-#email validator
-gem "valid_email2"
+# email validator
+gem 'valid_email2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code
