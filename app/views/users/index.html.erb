@@ -1,0 +1,13 @@
+<h1>All the Entries are here</h1>
+
+<h3>create a new entry <%= link_to 'Here', new_user_path %></h3>
+
+<%@users.each do |user|%>
+  <div class="entry">
+    <p>username: <%= user.username %></p>
+    <p>Email: <%= user.email %><p>
+    <p><%=link_to 'Edit', edit_user_path(user) %></p>
+  </div>
+  <hr>
+
+<% end %>
