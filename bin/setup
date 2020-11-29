@@ -1,4 +1,7 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# rubocop:disable Layout/LineLength
 require 'fileutils'
 
 # path to your application root.
@@ -34,3 +37,4 @@ FileUtils.chdir APP_ROOT do
   puts "\n== Restarting application server =="
   system! 'bin/rails restart'
 end
+# rubocop:enable Layout/LineLength

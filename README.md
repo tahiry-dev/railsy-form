@@ -1,76 +1,69 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Bare Metal Forms and Helpers
 
-> One paragraph statement about the project.
+> The project have a full functionality on form operation
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+The user can add, show and edit informations inside the app
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
+- Ruby
+- HTML5
+- Rails 6
+- VsCode
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+Make sure you have Ruby and Rails installed on your machine
 
 ### Setup
+clone this repo, by copying the following command:
+```
+https://github.com/tahiry-dev/railsy-form.git
 
+```
+### Access the local repo
+```
+cd re-former
+```
 ### Install
+```
+bundle install
+```
 
-### Usage
+### Create and Migrate database
+```
+rails db:create
+rails db:migrate
+```
 
-### Run tests
+### Launch the server
+```
+rails s
+```
 
-### Deployment
-
+### Open the app
+.Open your browser and go to http://localhost:3000/
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Tahiry RANDRIAMIARINTSOA**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@tahiry-dev](https://github.com/tahiry-dev)
+- LinkedIn: [Tahiry](https://www.linkedin.com/in/tahiry-randriamiarintsoa/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/tahiry-dev/railsy-form/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
